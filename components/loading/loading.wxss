@@ -1,0 +1,49 @@
+.-kivi-loading-layout {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.-kivi-loading-content {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.-kivi-loading-content-img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+
+.-kivi-loading-footer {
+  z-index: 500;
+  position: relative;
+  bottom: 10vw;
+  color: rgb(70, 65, 65);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.-kivi-loading-icon {
+  display: flex;
+  width: 31.73vw;
+  height: 9.07vw;
+  margin: 0 auto;
+}
+
+.-kivi-loading-text {
+  margin-top: 1.05vw;
+  text-align: center;
+  font-size: 3.2vw;
+  line-height: 4.53vw;
+  letter-spacing: 2px;
+}

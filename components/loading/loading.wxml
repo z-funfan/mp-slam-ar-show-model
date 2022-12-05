@@ -1,0 +1,11 @@
+<view wx:if="{{showLoading}}" class="-kivi-loading-layout">
+  <view class="-kivi-loading-content">
+    <image class="-kivi-loading-content-img" src="/static/images/cover_castle.png" mode="widthFix" />
+  </view>
+  <view class="-kivi-loading-footer">
+    <view>
+      <image class="-kivi-loading-icon" src="/static/images/loading.png" mode="widthFix" />
+      <view class="-kivi-loading-text">加载中，请稍后...</view>
+    </view>
+  </view>
+</view>

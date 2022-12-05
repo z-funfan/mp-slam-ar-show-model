@@ -1,0 +1,9 @@
+{
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "kivicube-slam": "plugin://kivicube-slam/kivicube-slam",
+    "Loading": "../../components/loading/loading",
+    "audio-player": "../../components/audio-player/audio-player"
+  }
+}
