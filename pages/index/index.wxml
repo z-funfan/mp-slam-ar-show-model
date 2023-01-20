@@ -13,10 +13,12 @@
   <view class="scan-txt">请寻找一个平面</view>
 </view>
 
-<view class="find-plane-tip animated fadeIn" wx:if="{{step === 'showPoint'}}">选择最佳位置，点击屏幕放置城堡</view>
+<view class="find-plane-tip animated fadeIn" wx:if="{{step === 'showPoint'}}">选择最佳位置，点击屏幕放置小兔叽</view>
 
 <view class="-kivi-chef-box" wx:if="{{ step === 'startScene' }}">
-  <image class="chef-img animated fadeInLeft" src="/static/images/cookieann-duffy-s.png" mode="widthFix" lazy-load="false" />
+  <image class="chef-img top animated fadeInDown" src="/static/images/hengfu.jpg" mode="widthFix" lazy-load="false" />
+  <image class="chef-img left animated fadeInLeft" src="/static/images/bianpao.gif" mode="widthFix" lazy-load="false" />
+  <image class="chef-img right animated fadeInRight" src="/static/images/bianpao.gif" mode="widthFix" lazy-load="false" />
 </view>
 
 <view class="-kivi-btn-box" wx:if="{{ step === 'startScene' }}">

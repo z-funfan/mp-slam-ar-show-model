@@ -3,7 +3,7 @@ import { resUrl } from "../../utils/util";
 class Player {
   constructor() {
     this.innerAudioContext = wx.createInnerAudioContext();
-    this.innerAudioContext.src = resUrl("media/A_whole_new_world.mp3");
+    this.innerAudioContext.src = resUrl("media/gongheifachoi.mp3");
     this.innerAudioContext.loop = true;
     this.type = "pause";
   }

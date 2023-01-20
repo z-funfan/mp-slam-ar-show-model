@@ -16,7 +16,7 @@ class Castle {
     const downloadStartTime = Date.now();
 
     this.downloadAssets = Promise.all([
-      requestFile(resUrl("model/hong_kong_disneyland_castle_renovation_000.glb")),
+      requestFile(resUrl("model/rabbit_dancing.glb")),
       requestFile(resUrl("media/default.hdr")),
       downloadFile(resUrl("media/point.mp4")),
       downloadFile(resUrl("media/snow-animate-compressed-2.mp4")),
@@ -61,6 +61,8 @@ class Castle {
 
       // 开启模型投射阴影属性是否投射。true为开启投射，false为关闭投射。
       castle.setCastShadow(true);
+      castle.scale.setScalar(100);
+      castle.playAnimation({ loop: true });
 
       snowModel.loop = true; // 设置为循环播放
       snowModel.position.set(0, 30, 0);
@@ -75,7 +77,7 @@ class Castle {
       group.add(snowModel);
 
       // v2版本放置到空间中的模型大小更精准，这里需要做下处理
-      const initScale = slam.isSlamV2() ? 0.23 : 0.75;
+      const initScale = slam.isSlamV2() ? 0.5 : 1.5;
       const initRotation = 0; // 角度
       /**
        * 将创建好的3D对象，放入组件之中显示。

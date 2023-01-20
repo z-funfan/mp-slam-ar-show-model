@@ -1,6 +1,6 @@
 <view wx:if="{{showLoading}}" class="-kivi-loading-layout">
   <view class="-kivi-loading-content">
-    <image class="-kivi-loading-content-img" src="/static/images/cover_castle.png" mode="widthFix" />
+    <image class="-kivi-loading-content-img" src="/static/images/cover_rabbit.jpeg" mode="widthFix" />
   </view>
   <view class="-kivi-loading-footer">
     <view>

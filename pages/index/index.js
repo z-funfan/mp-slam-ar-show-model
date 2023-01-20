@@ -43,6 +43,13 @@ Page({
     stats("loading_start");
   },
 
+  onShareAppMessage: function (res) {
+    return {
+      title: '新年快乐，大展红兔',
+      imageUrl: '/static/images/cover_rabbit.jpeg'
+    }
+  },
+
   onUnload() {
     this.castle.clear();
 

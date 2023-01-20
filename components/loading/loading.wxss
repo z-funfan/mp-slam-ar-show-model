@@ -27,7 +27,7 @@
 .-kivi-loading-footer {
   z-index: 500;
   position: relative;
-  bottom: 10vw;
+  bottom: 5vw;
   color: rgb(70, 65, 65);
   left: 50%;
   transform: translateX(-50%);
